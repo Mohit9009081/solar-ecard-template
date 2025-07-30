@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: unset;
+
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1;
+    background-color: #efefef;
+    
+   
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+.mobile-container{
+    max-width: 430px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vf;
+    
+     
+}
+.card{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+    
+}
+
+.card header{
+    text-align: center;
+    background-color: chocolate;
+    border-radius: 16px;
+    
+}
+.logo{
+    margin-top: 10px;
+    width:  120px;
+    height: 120px;
+    border-radius: 30px;
+    
+}
+.companyname{
+   color: rgba(9, 9, 8, 0.804);
+   margin-top: 10px;
+   
+}
+.tage{
+    font-size: 25px;
+    margin-top:5px ;
+    margin-bottom: 10px;
+}
+
+.profile{
+    background-color: #569c7687;
+    border-radius: 16px;
+}
+.profile-photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+.icon{
+    
+    margin-top: 15px;
+    /* border-color: aqua; */
+    
+}
+.profile a{
+    font-size: 30px;
+    color: #f1ecec;
+    border-radius: 100%;
+    background-color: rgb(234, 50, 18);
+    display: inline-flex;
+    line-height: 1;
+    margin-bottom: 10px;
+
+
+}
+
+.product{
+    background-color:  #569c7687;
+    border-radius: 16px;
+}
+.heading-p{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px ;
+}
+.product img{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin: 5px;
+}
+.Benefits{
+    background-color:  #569c7687;
+    border-radius: 16px;
+
+}
+.benef-heading{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px ;
+}
+
+.benef-text{
+    color: #010101;
+    display:block;
+    margin: 10px;
+    border: 2px solid #000;
+    border-radius: 16px;
+    font-size: 20px;
+    background-color: #fff;
+    line-height: 50px;
+    height: 50px;
+    margin-bottom: 20px;/
+
+
+}
+.services{
+    background-color: #569c7687;
+     border-radius: 16px;
+     margin-top: -15px;
+}
+.ser-heading{
+     font-size: 30px;
+    font-weight: bold;
+    margin: 10px ;
+}
+.list{
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 16px;
+    margin: 10px;
+    line-height: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;/
+    
+}
+.map{
+    border: 18px solid #569c7687;
+    border-radius: 16px;
+}
+    
+    
+    
